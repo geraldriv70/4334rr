@@ -55,7 +55,7 @@ async def airdrops(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 async def referrals(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_id = update.effective_user.id
-    referral_link = f"https://t.me/YourBot?start={user_id}"
+    referral_link = f"https://t.me/DropSeeker_bot?start={user_id}"
     text = (f'👥 Invite friends and earn rewards!\n'
             f'🎁 Get 1 free refresh for every 5 friends you invite!\n\n'
             f'🔗 Your referral link: {referral_link}')
